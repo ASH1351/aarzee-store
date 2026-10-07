@@ -1,0 +1,48 @@
+import { Review } from '@/types/product';
+
+export const REVIEWS: Review[] = [
+  {
+    id: 'rev-1',
+    author: 'Vikramaditya S.',
+    location: 'Mumbai, India',
+    rating: 5,
+    date: 'February 2026',
+    title: 'An authentic masterpiece of Indian agarwood',
+    comment: 'Absolutely beautiful fragrance. The oud is rich without being overwhelming. The transition from spicy saffron into smooth creamy sandalwood lasted over 18 hours on my linen shirt.',
+    verified: true,
+    productName: 'AARZEE ROYAL OUD',
+  },
+  {
+    id: 'rev-2',
+    author: 'Dr. Tariq M.',
+    location: 'Dubai, UAE',
+    rating: 5,
+    date: 'January 2026',
+    title: 'One of the most premium attars I have ever experienced',
+    comment: 'Having collected rare attars across Oman and Lucknow for over a decade, Aarzee Rose Oud stands alongside the finest vintage distillations. Pure, velvety, and without any harsh synthetic alcohol bite.',
+    verified: true,
+    productName: 'AARZEE ROSE OUD',
+  },
+  {
+    id: 'rev-3',
+    author: 'Ananya Deshmukh',
+    location: 'Bengaluru, India',
+    rating: 5,
+    date: 'March 2026',
+    title: 'Unmatched sillage and compliments all night',
+    comment: 'Aarzee Noir is pure nocturnal elegance. Wore it to an art gala and had four strangers inquire about my scent. The bottle design itself is a work of dark sculpture on my vanity table.',
+    verified: true,
+    productName: 'AARZEE NOIR',
+  },
+  {
+    id: 'rev-4',
+    author: 'Kabir Singhania',
+    location: 'New Delhi, India',
+    rating: 5,
+    date: 'February 2026',
+    title: 'True Deg & Bhapka craftsmanship preserved',
+    comment: 'The Dehn Al Oud Hindi is profound. You can genuinely smell the natural age of the Assam wood and copper alembic craftsmanship. It is meditative, grounded, and deeply luxurious.',
+    verified: true,
+    productName: 'DEHN AL OUD HINDI',
+  },
+];
